@@ -15,10 +15,12 @@ src="" />
 var player, config;
 config = {
 "playReadyLicenseServerURL":
-"http://lic.staging.drmtoday.com/license-proxy-headerauth/drmtoday/RightsManager.asmx"
+"https://lic.drmtoday.com/license-proxy-headerauth/drmtoday/RightsManager.asmx"
 ,
 "widevineLicenseServerURL":
-"https://lic.staging.drmtoday.com/license-proxy-widevine/cenc/"
+"https://lic.drmtoday.com/license-proxy-widevine/cenc/",
+"accessLicenseServerURL":
+"https://lic.drmtoday.com/flashaccess/LicenseTrigger/v1"
 };
 player = new MediaPlayer(new castLabsDashJS.classes.DRMtodayContext(config));</script>
    </body>
